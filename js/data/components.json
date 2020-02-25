@@ -1,0 +1,67 @@
+{
+    "foundation": [
+        {"title": "Красная основа", "src": "foundation_1"}, 
+        {"title": "Белая основа", "src": "foundation_2"}
+    ],
+    "categories": [
+        {
+            "title": "Сыр",
+            "ingredients": [
+                {"title": "Сыр Фетаки", "src": "ingredient_1"},
+                {"title": "Сыр Пармезан", "src": "ingredient_2"},
+                {"title": "Сыр Дор Блю", "src": "ingredient_3"}
+            ]
+        },
+        {
+            "title": "Мясо и колбасы",
+            "ingredients": [
+                {"title": "Бекон", "src": "ingredient_4"},
+                {"title": "Ветчина", "src": "ingredient_5"},
+                {"title": "Колбаса сырокопченая", "src": "ingredient_6"},
+                {"title": "Филе куриное", "src": "ingredient_7"},
+                {"title": "Говядина маринованная", "src": "ingredient_8"},
+                {"title": "Фарш говяжий", "src": "ingredient_9"},
+                {"title": "Яйцо", "src": "ingredient_10"}
+            ]
+        },
+        {
+            "title": "Морепродукты",
+            "ingredients": [
+                {"title": "Кальмары", "src": "ingredient_11"},
+                {"title": "Коктейль морской", "src": "ingredient_12"},
+                {"title": "Семга маринованная", "src": "ingredient_13"}
+            ]
+        },
+        {
+            "title": "Овощи",
+            "ingredients": [
+                {"title": "Баклажаны", "src": "ingredient_14"},
+                {"title": "Брокколи", "src": "ingredient_15"},
+                {"title": "Каперсы", "src": "ingredient_16"},
+                {"title": "Корнишоны", "src": "ingredient_17"},
+                {"title": "Лук зеленый", "src": "ingredient_18"},
+                {"title": "Лук маринованный", "src": "ingredient_19"},
+                {"title": "Маслины", "src": "ingredient_20"},
+                {"title": "Оливки", "src": "ingredient_21"},
+                {"title": "Перец болгарский", "src": "ingredient_22"},
+                {"title": "Помидоры свежие", "src": "ingredient_23"},
+                {"title": "Укроп", "src": "ingredient_24"}
+            ]
+        },
+        {
+            "title": "Грибы",
+            "ingredients": [
+                {"title": "Опята маринованные", "src": "ingredient_25"},
+                {"title": "Шампиньоны", "src": "ingredient_26"}
+            ]
+        },
+        {
+            "title": "Прочее",
+            "ingredients": [
+                {"title": "Кунжут", "src": "ingredient_27"},
+                {"title": "Мята", "src": "ingredient_28"},
+                {"title": "Соус из шпината", "src": "ingredient_29"}
+            ]
+        }
+    ]
+}

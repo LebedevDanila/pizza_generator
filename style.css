@@ -1,0 +1,141 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+:root {
+    --red: #EC4525;
+    --darken: #003b75;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: #3F3F3F;
+    background: #f3f3f3;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-title {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Sriracha', cursive;
+}
+.main-title span:first-child, .used-ingredients__title span:last-child {
+    color: var(--red);
+}
+.main-title span:last-child, .used-ingredients__title span:first-child {
+    color: var(--darken);
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.components-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 50px auto;
+}
+.components__item {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    flex-basis: 16.6666666667%;
+    cursor: pointer;
+    background: var(--darken);
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+.components__item:hover {
+    transition: 1s all ease;
+    background: var(--red);
+    color: #fff;
+}
+.components__item:hover > ul {
+    display: block;
+}
+.components__item ul {
+    position: absolute;
+    left: 0;
+    background: var(--darken);
+    padding: 10px 20px;
+    display: none;
+    width: 236px;
+    margin: 20px 0 0 0;
+    z-index: 9;
+}
+.components__item ul li {
+    display: block;
+    text-align: left;
+    padding: 6px 0;
+    font-weight: normal;
+    font-size: 21px;
+}
+.components__item ul li:hover {
+    transition: 0.7s all ease;
+    color: var(--red);
+}
+.components__item ul li:first-child {
+    padding: 0 0 6px 0;
+}
+.components__item ul li:last-child {
+    padding: 6px 0 0 0;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 910px;
+    margin: 0 auto;
+}
+.plate {
+    width: 430px;
+    height: 430px;
+    padding: 10px 0 0 10px;
+    position: relative;
+    background-size: cover;
+    background-image: url('images/plate.png');
+}
+.plate img {
+    position: absolute;
+    vertical-align: middle;
+}
+.used-ingredients {
+    width: 355px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0 20px 10px 20px;
+}
+.used-ingredients__title {
+    font-family: 'Sriracha', cursive;
+    font-size: 26px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.used-ingredients__item {
+    padding: 10px;
+    font-size: 23px;
+    line-height: 25px;
+    border-top: 1px dotted #ababab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.used-ingredients__item .delete-btn {
+    width: 25px;
+    height: 25px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 46px;
+    line-height: 19px;
+    cursor: pointer;
+    color: #fff;
+    background: #e53935;
+    outline: none;
+    user-select: none;
+}
